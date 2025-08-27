@@ -1,5 +1,5 @@
 # ChoiceScript Save Manager Injector
-A bootstrap app to automatically inject the ChoiceScriptSavePlugin into the Steam editions of Choice of Games/Hosted Games (since patching app.asar results in license invalidation :/)
+A bootstrap app to automatically inject the [ChoiceScriptSavePlugin](https://github.com/ChoicescriptIDE/ChoiceScriptSavePlugin) into the Steam editions of Choice of Games/Hosted Games (since patching app.asar results in license invalidation :/)
 
 ## How it works
 
