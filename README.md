@@ -3,8 +3,10 @@ A bootstrap app to automatically inject the [ChoiceScriptSavePlugin](https://git
 
 ## How it works
 
-On the first run, the app renames the original executable and then places itself in its place (essentially automatic installation)
+On the first run, the app renames the original executable and then places itself in its place (essentially automatic installation).
+
 On subsequent runs, when the game is launched through Steam, it launches the app instead, which then in turn, launches the original executable but with the addition of a remote debugging flag.
+
 After the remote debug becomes available, it connects itself to it, waits a second for the game to load, and then injects the slightly modified ChoiceScriptSavePlugin.
 
 ## How to use
